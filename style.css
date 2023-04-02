@@ -1,0 +1,55 @@
+
+html, #map {
+  margin:0;     /* This is used to reset any browser-default margins */
+  height:100vh; /* This is needed to overcome a Chrome bug. */
+  width:100vw;  /* As above. */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#nav-bar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50px;
+  text-align: center;
+  bottom: auto;
+  right: auto;
+
+}
+
+#stamp{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  display: block;
+  width: 60%;
+  height: 20px;
+  text-align:right;
+  bottom: auto;
+  right: auto;
+}
+
+
+#loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.legend {
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
